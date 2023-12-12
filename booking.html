@@ -15,135 +15,135 @@
 </head>
 <body>
     <!--Navigation-->
-<div class="nav">
+<section class="nav">
     <section class="logo"><a href="./Homepage.html"><img src="cinnamon-hotels-and-resorts-logo-vector.webp" alt="logo" width="200px"></a></section>
-    <div class="navM">
+    <section class="navM">
         <li><a href="./Homepage.html" target="_blank">Home</a></li>
         <li><a href="./HotelBranches.html" target="_blank">Hotel Branches</a></li>
         <li><a href="./Adventures.html" target="_blank">Adventures</a></li>
         <li><a href="./Restaurants.html" target="_blank">Restaurants</a></li>
         <li><a href="./Events.html" target="_blank">Events</a></li>
         </nav>
-    </div>
-</div>
+    </section>
+</section>
 
 <!--Booking Form-->
-<div class="Form-buttons">
+<section class="Form-buttons">
     <button type="submit" id="favourite">favourite</button>
     <button type="button" id="loyalty">Loyalty</button>
-</div>
+</section>
 
 <form id="booking-form" action="#" method="post">
     <h2>Booking</h2>
     <h2>Details</h2>
-    <div class="elem-group">
+    <section class="elem-group">
       <label for="name">Your Name</label>
       <input type="text" id="name" name="visitor_name" placeholder="Name" required>
-    </div>
-    <div class="elem-group">
+    </section>
+    <section class="elem-group">
       <label for="email">Your E-mail</label>
       <input type="email" id="email" name="visitor_email" placeholder="example123@gmail.com" required>
-    </div>
-    <div class="elem-group">
+    </section>
+    <section class="elem-group">
       <label for="phone">Your Phone</label>
       <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
-    </div>
+    </section>
     <hr>
     <h2>Number of People</h2>
-    <div class="elem-group inlined">
+    <section class="elem-group inlined">
       <label for="adult">Adults</label>
       <input type="number" id="adult" name="total_adults" value="0" min="1" required>
-    </div>
-    <div class="elem-group inlined">
+    </section>
+    <section class="elem-group inlined">
       <label for="child">Children</label>
       <input type="number" id="child" name="total_children" value="0" min="0" required>
-    </div>
+    </section>
     <hr>
     <h2>Number of Rooms</h2>
-    <div class="numberOfRooms">
-      <div class="elem-group inlined">
+    <section class="numberOfRooms">
+      <section class="elem-group inlined">
           <label for="Single">Single</label>
           <input type="number" id="Single" name="total_single"  value="0" min="0">
-        </div>
-        <div class="elem-group inlined">
+        </section>
+        <section class="elem-group inlined">
           <label for="Double">Double</label>
           <input type="number" id="Double" name="total_double"  value="0" min="0">
-        </div>
-        <div class="elem-group inlined">
+        </section>
+        <section class="elem-group inlined">
           <label for="Triple">Triple</label>
           <input type="number" id="Triple" name="total_triple"  value="0" min="0">
-        </div>
-        <div class="elem-group inlined">
+        </section>
+        <section class="elem-group inlined">
           <label for="Extra-Beds">Extra Bed</label>
           <input type="number" id="Extra-Beds" name="total_Extra"  value="0" min="0" max="5">
-          </div>
-      </div>
-    </div>
+          </section>
+      </section>
+    </section>
     <hr>
     <!--CheckIn and CheckOut-->
-    <div id="Duration">
-      <div class="elem-group inlined">
+    <section id="Duration">
+      <section class="elem-group inlined">
         <label for="checkin-date">Check-in Date</label>
         <input type="date" id="checkin-date" name="checkin" value="0" required>
-      </div>
-      <div class="elem-group inlined">
+      </section>
+      <section class="elem-group inlined">
         <label for="checkout-date">Check-out Date</label>
         <input type="date" id="checkout-date" name="checkout" value="0" required>
-      </div>
-    </div>
-    <div class="elem-group">
+      </section>
+    </section>
+    <section class="elem-group">
         <h2>Extra Requirements</h2>
-        <div class="extra-requirements">
-            <div class="extra-requirements-checkboxes">
+        <section class="extra-requirements">
+            <section class="extra-requirements-checkboxes">
                 <input type="checkbox" name="extra" id="wifi">
-                <div class="extra-req-text">
+                <section class="extra-req-text">
                     <span>
                         WiFi
                     </span>
-                </div>
-            </div>
+                </section>
+            </section>
 
-            <div class="extra-requirements-checkboxes">
+            <section class="extra-requirements-checkboxes">
                 <input type="checkbox" name="extra" id="pet">
-                <div class="extra-req-text">
+                <section class="extra-req-text">
                     <span>
                         Pet Accommodation
                     </span>
-                </div>
+                </section>
 
-            </div>
+            </section>
 
-            <div class="extra-requirements-checkboxes">
+            <section class="extra-requirements-checkboxes">
                 <input type="checkbox" name="extra" id="assistance">
-                <div class="extra-req-text">
+                <section class="extra-req-text">
                     <span>
                         Concierge Assistance
                     </span>
-                </div>
+                </section>
 
-            </div>
+            </section>
 
-            <div class="extra-requirements-checkboxes">
+            <section class="extra-requirements-checkboxes">
                 <input type="checkbox" name="extra" id="ac">
-                <div class="extra-req-text">
+                <section class="extra-req-text">
                     <span>
                         A/C
                     </span>
-                </div>
-            </div>
-    </div>
+                </section>
+            </section>
+    </section>
     <hr>
-    <div class="promo-code">
+    <section class="promo-code">
         <label for="Promo">Promo Code</label>
         <input type="text" name="promo" id="promo" placeholder="Enter Promo-Code">
-    </div>
-    <div class="elem-group">
+    </section>
+    <section class="elem-group">
       <label for="message">Anything Else?</label>
       <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
-    </div>
-    <div id="booking">
+    </section>
+    <section id="booking">
       <h2>Current Booking</h2>
-    </div>
+    </section>
     <p><button type="submit" id="bookNow">Book The Rooms</button></p>
 </form>
 
@@ -152,65 +152,65 @@
   <form id="Adventure-form" action="#" method="post">
     <h2 id="AN">Adventure</h2>
     <h2>Number of Foreign People</h2>
-    <div class="elem-group inlined">
+    <section class="elem-group inlined">
       <label for="adult">Adults</label>
       <input type="number" id="ForeignAdult" name="total_adults_forAD" value="0" min="1" required>
-    </div>
-    <div class="elem-group inlined">
+    </section>
+    <section class="elem-group inlined">
       <label for="child">Children</label>
       <input type="number" id="ForeignChild" name="total_children_forAD" value="0" min="0" required>
-    </div>
+    </section>
     <hr>
     <h2>Number of Local People</h2>
-    <div class="elem-group inlined">
+    <section class="elem-group inlined">
       <label for="adult">Adults</label>
       <input type="number" id="Localadult" name="total_adults_forAD" value="0" min="1" required>
-    </div>
-    <div class="elem-group inlined">
+    </section>
+    <section class="elem-group inlined">
       <label for="child">Children</label>
       <input type="number" id="Localchild" name="total_children_forAD" value="0" min="0" required>
-    </div>
+    </section>
     <hr>
     <!--Arrival date and time-->
-    <div class="elem-group inlined">
+    <section class="elem-group inlined">
         <label for="duration">Duration</label>
         <input type="number" id="duration" name="duration">
-      </div>
+      </section>
     
       <h2>Guide Requirements</h2>
-      <div class="guide-requirements">
-          <div class="guide-requirements-checkboxes">
+      <section class="guide-requirements">
+          <section class="guide-requirements-checkboxes">
               <input type="checkbox" name="guide" id="adultguide">
-              <div class="guide-req-text">
+              <section class="guide-req-text">
                   <span>
                       Adult Guides
                   </span>
-              </div>
-          </div>
+              </section>
+          </section>
 
-          <div class="guide-requirements-checkboxes">
+          <section class="guide-requirements-checkboxes">
               <input type="checkbox" name="guide" id="kidguide">
-              <div class="guide-req-text">
+              <section class="guide-req-text">
                   <span>
                       Kid's Guide
                   </span>
-              </div>
-          </div>
-      </div>
+              </section>
+          </section>
+      </section>
 
     <hr>
-    <div class="elem-group">
+    <section class="elem-group">
       <label for="message">Anything Else?</label>
       <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important"></textarea>
-    </div>
-    <div id="ADVbooking">
-    </div>
+    </section>
+    <section id="ADVbooking">
+    </section>
     <p><button type="submit" id="bookAdventure">Book The Adventure</button></p>
   </form>
-  <div id="overallBookingAD">
-  </div>
+  <section id="overallBookingAD">
+  </section>
 
-</div>
+</section>
 <!--Footer-->
 <footer>
     <section class="row">
